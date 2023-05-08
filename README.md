@@ -55,11 +55,14 @@ ainsi que de les modifier et les supprimer. Il facilite la gestion de la bibliot
    
    Aprés le correct username et password , vous l'accédez au champ livre .
    
-   Vous pouvez ajouter, modifier ainsi que supprimer les livre ,Avec des conditions pour chaque champs .
-   Pour l'ajout , il faut entrer tous les inputs .
-   Le même cas pour modfier , en entrant le nom de livre dans lequel vous voulez le modifier .
-   Pour la supprission , il faut entrer le nom du livre , sur input Title , puis cliquer sur delete , sans entrer les autres inputs .
+   Vous pouvez ajouter, modifier ainsi que supprimer les livres ,Avec des conditions pour chaque champs .
+   Pour l'ajout , il faut entrer tous les inputs , si vous laisser un input vite ou si aussi , vous entrez un livre déja existe, un messagebox s'affiche .
+   Le même cas pour modfier , en entrant le nom de livre dans lequel vous voulez le modifier, si le nom de livre entré n'existe pas dans notre base de données ,
+   un message d'erreur s'affiche .
+   Pour la supprission , il faut entrer le nom du livre , sur input Title , puis cliquer sur delete , sans entrer les autres inputs , il faut que le livre à          supprimé existe dans notre base de donnée .
    
+    Chaque utilisateur avait votre compte , par exemple , si un utilisateur A ajoute un livre , lorsque un autre utilisateur B se connecte , il n'affiche pas les 
+    livres de A .
  
   
   
