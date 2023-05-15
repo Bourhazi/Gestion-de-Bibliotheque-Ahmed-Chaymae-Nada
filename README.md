@@ -45,19 +45,21 @@ ainsi que de les modifier et les supprimer. Il facilite la gestion de la bibliot
    Ensuite un interface graphique de login s'affiche , si vous aurez un compte déja vous pouvez l'accéder en entrant votre username et password , sinon
    vous clickez sur sign up .
    
-   dans cette interface sign up nous avons fait toutes les conditions , si par exemple les inputs sont vides , nous affichons un message d'erreur avec un 
-   qui explique l'erreur a partir messagebox , le même cas si le password n'est pas le même que repeat password , ainsi que si email ou utilisateur a créer 
+   dans cette interface sign up nous avons fait toutes les conditions , si par exemple les inputs sont vides , nous affichons un message d'erreur avec un message
+   qui explique l'erreur à travers messagebox , le même cas si le password n'est pas le même que repeat password , ainsi que si email ou utilisateur a créer 
    déja exist ...
    
-   Si vous créez votre compte , vous l'accedez a sign in , dans lequel vous entrez votre username and password , nous avons fait aussi des conditions , si
+   Si vous créez votre compte , vous l'accedez à sign in , dans lequel vous entrez votre username and password , nous avons fait aussi des conditions , si
    par exemple email ou password n'existe pas dans la base de donnée en affichant un messagebox . Vous aurez juste 3 chance d'entrer le correct username et 
    password , par la suite , le boutton login destroy .
    
-   Aprés le correct username et password , vous l'accédez au champ livre .
+   Aprés le correct username et password , il y a deux interfaces , interface pour admin et interface pour user .
+   si vous connectez avec admine , une interface des listes des usres s'affiche , aprés si vous cliquez sur l'un des users , une autre inteface s'affiche 
+   dans lequel l'admin peut supprimer ou ajouter ou rechercher ou ajouter et aussi afficher les livres de tous les utilisateurs .
    
-   Vous pouvez ajouter, modifier ainsi que supprimer les livres ,Avec des conditions pour chaque champs .
+   Si vous connectez avec user ,Vous pouvez ajouter, modifier,rechercher ,afficher ainsi que supprimer les livres ,Avec des conditions pour chaque champs .
    Pour l'ajout , il faut entrer tous les inputs , si vous laisser un input vite ou si aussi , vous entrez un livre déja existe, un messagebox s'affiche .
-   Le même cas pour modfier , en entrant le nom de livre dans lequel vous voulez le modifier, si le nom de livre entré n'existe pas dans notre base de données ,
+   Le même cas pour modifier , en entrant le nom de livre dans lequel vous voulez le modifier, si le nom de livre entré n'existe pas dans notre base de données ,
    un message d'erreur s'affiche .
    Pour la supprission , il faut entrer le nom du livre , sur input Title , puis cliquer sur delete , sans entrer les autres inputs , il faut que le livre à          supprimé existe dans notre base de donnée .
    
