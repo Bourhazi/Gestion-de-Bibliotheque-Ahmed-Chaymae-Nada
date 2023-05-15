@@ -5,10 +5,12 @@ ainsi que de les modifier et les supprimer. Il facilite la gestion de la bibliot
 
 #Les fonctionnalités de gestionnaire de l'application :
   -créer un compte
-  -Se connecter puis accéder à l'application
+  -Se connecter puis accéder à l'application en tant qu'admin ou user 
   -Ajouter un livre
   -Modifier un livre
-  -Supprimer un livre 
+  -Supprimer un livre
+  -recherche d'un livre
+  -afficher tous les livres
   
 #Les technologies :
   -PyCharm est un environnement de développement intégré (IDE) utilisé principalement pour la programmation en Python. Il est développé par JetBrains et 
